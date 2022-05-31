@@ -20,7 +20,7 @@ class About_Developer:
 
 
 #bg img
-        img1=Image.open(r"C:\Users\kshitiz\Pictures\Predator\Predator_3840x2160.jpg")
+        img1=Image.open(r"logo and bg\predator.jpg")
         img1=img1.resize((600,400),Image.ANTIALIAS)
         self.photoimg=ImageTk.PhotoImage(img1)
 
